@@ -11,7 +11,16 @@ def apply_theme(page):
         ('#F5F9FF', '#E3EEFB', '#172B4D', '#FFE17D', '#D7E9FF', '#CEDCEE', '#EDF4FC', '#0369A1')
     )
     bg, side, ink, accent, soft, line, field, primary = palette
+    
+    
     css = '''
+    [data-testid="stSidebar"] [data-testid="stRadio"] label,
+    [data-testid="stSidebar"] [data-testid="stRadio"] label p {
+        color: var(--pp-ink) !important;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        opacity: 1 !important;
+    }
     <style>
     :root { --pp-bg: BG; --pp-side: SIDE; --pp-ink: INK; --pp-accent: ACCENT;
         --pp-soft: SOFT; --pp-line: LINE; --pp-field: FIELD; --pp-primary: PRIMARY; }
