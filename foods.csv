@@ -1,0 +1,13 @@
+id,name,portion,calories,protein_g,carbs_g,fat_g,fibre_g,price_inr,diet,allergens,equipment,max_servings
+oats,Plain oats,40 g dry,156,6.8,26.5,2.8,4.2,8,vegan,,kitchen,2
+milk,Plain milk,250 ml,150,8,12,8,0,15,vegetarian,milk,none,2
+banana,Banana,100 g edible portion,89,1.1,22.8,0.3,2.6,8,vegan,,none,2
+chana,Roasted chana,30 g,120,6,18,2,5,10,vegan,,none,2
+peanuts,Plain roasted peanuts,25 g,147,6.1,5.3,12.4,2.1,6,vegan,peanuts,none,2
+curd,Plain curd,200 g,122,7,9.4,6.6,0,20,vegetarian,milk,none,2
+bread,Whole-wheat bread,60 g,150,6,26,2,4,10,vegan,wheat,none,2
+rice,Rice,75 g dry before cooking,274,5.3,60,0.5,1,6,vegan,,kitchen,3
+lentils,Lentils,60 g dry before cooking,211,15,36,0.7,6.4,9,vegan,,kitchen,2
+soy,Soya chunks,30 g dry before cooking,104,15.6,9.9,0.2,3.9,6,vegan,soy,kitchen,2
+egg,Egg,1 large egg cooked without oil,78,6.3,0.6,5.3,0,7,eggetarian,eggs,kitchen,2
+apple,Apple,150 g edible portion,78,0.4,20.7,0.3,3.6,20,vegan,,none,2

@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#315E44"
+backgroundColor = "#F7F9FB"
+secondaryBackgroundColor = "#EDF2F6"
+textColor = "#172B4D"
+font = "sans-serif"
+baseFontSize = 18
+baseFontWeight = 600
+dataframeHeaderBackgroundColor = "#DFE8E4"
+
+[server]
+maxUploadSize = 10
