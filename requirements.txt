@@ -1,3 +1,5 @@
+scipy
+reportlab==4.4.9
 altair==6.3.0
 annotated-types==0.8.0
 anyio==4.15.1
