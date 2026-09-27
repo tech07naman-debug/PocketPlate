@@ -21,6 +21,15 @@ def apply_theme(page):
         font-weight: 700 !important;
         opacity: 1 !important;
     }
+
+    [data-testid="stSpinner"] {
+        color: var(--pp-ink) !important;
+    }
+    
+    [data-testid="stSpinner"] > div:first-child {
+        border-color: var(--pp-line) !important;
+        border-top-color: var(--pp-ink) !important;
+    }
     <style>
     :root { --pp-bg: BG; --pp-side: SIDE; --pp-ink: INK; --pp-accent: ACCENT;
         --pp-soft: SOFT; --pp-line: LINE; --pp-field: FIELD; --pp-primary: PRIMARY; }
