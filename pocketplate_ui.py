@@ -14,6 +14,7 @@ def apply_theme(page):
     
     
     css = '''
+    <style>
     [data-testid="stSidebar"] [data-testid="stRadio"] label,
     [data-testid="stSidebar"] [data-testid="stRadio"] label p {
         color: var(--pp-ink) !important;
@@ -30,7 +31,6 @@ def apply_theme(page):
         border-color: var(--pp-line) !important;
         border-top-color: var(--pp-ink) !important;
     }
-    <style>
     :root { --pp-bg: BG; --pp-side: SIDE; --pp-ink: INK; --pp-accent: ACCENT;
         --pp-soft: SOFT; --pp-line: LINE; --pp-field: FIELD; --pp-primary: PRIMARY; }
     [data-testid="stAppViewContainer"], [data-testid="stMain"] {background:var(--pp-bg);color:var(--pp-ink)}
